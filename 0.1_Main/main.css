@@ -3,7 +3,7 @@
     margin: 10px;
     padding: 10px;
     border: solid 1px #888;
-    background-color: #84B59F;
+    background-color: rgba(0,0,0,0);
   }
   
   .minor-section {
@@ -14,7 +14,7 @@
   }
 
   body {
-    background-image: url("mainbg.PNG");
+    background-image: url(img/mainbg.png);
   }
   
   
