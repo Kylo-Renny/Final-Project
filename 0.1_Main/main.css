@@ -4,6 +4,8 @@
     padding: 10px;
     border: solid 1px #888;
     background-color: rgba(0,0,0,0);
+    font-family: 'Papyrus';
+    font-size: 20px
   }
   
   .minor-section {
@@ -11,6 +13,15 @@
     margin-bottom: 10px;
     border: solid 1px #888;
     background-color: #A3C9A8;
+    font-family: 'Papyrus';
+    font-size: 20px
+  }
+
+  #invite {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
 
   body {
