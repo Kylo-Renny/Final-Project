@@ -33,7 +33,7 @@
 }
 
 .buttonLetter {
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   background-color: coral;
@@ -42,17 +42,21 @@
   color: white;
 }
 
-#stayHome {
-  display: inline-block;
-  background-color: burlywood;
-  margin-left: 15%;
-  margin-right: 75%;
+#links{
+  display: flex;
 }
+#stayHome {
+  flex: 50%;
+  width: 50%;
+  text-align: center;
+  background-color: burlywood;
+}
+
 #goParty {
-  display: inline;
+  flex: 50%;
+  width: 50%;
+  text-align: center;
   background-color: blueviolet;
-  margin-left: 75%;
-  margin-right: 15%;
 }
 
   body {
