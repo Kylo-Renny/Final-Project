@@ -6,24 +6,39 @@
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #888;
-  background-color: #DDD8C4;
+  background-color: #ddd8c400;
 }
 
 h1 {
   text-align: center;
 }
 
-body  {
-  background-image: url('home.PNG');
-  background-color: #cccccc;
+.container {
+  position: relative;
 }
+
+body {
+  background-image: url(..\img\home.PNG);
+  background-color: #888;
+}
+
 #slugBlue {
   flex: auto;
   width: 50%;
+  display: inline-flex;
 }
 
 #slugYellow {
   flex: auto;
   width: 45%;
+  display: inline-flex;
 }
-  
+
+#narrator {
+  color: white;
+  position: absolute;
+  right: 43%;
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 50px;
+}
