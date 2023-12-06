@@ -5,7 +5,7 @@
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #888;
+  border: solid 1px #88888800;
   background-color: #ddd8c400;
 }
 
@@ -19,7 +19,7 @@ h1 {
 
 body {
   background-image: url(..\img\home.PNG);
-  background-color: #888;
+  background-color: #4b4b4b;
 }
 
 #slugBlue {
@@ -37,7 +37,7 @@ body {
 #narrator {
   color: white;
   position: absolute;
-  right: 43%;
+  right: 40%;
   top: 50%;
   background-color: rgba(0, 0, 0, 0);
   font-size: 50px;
