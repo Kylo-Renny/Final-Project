@@ -19,7 +19,7 @@ rooms = {
     },
 
     openinvitation: {
-        name: "",
+        name: "You're Invited",
         description: "",
         exitKeys: [""],
         exitTexts: [""],
@@ -145,6 +145,86 @@ rooms = {
         exitTexts:
         image:
     },
+/////////////////////////HARD STOP//////////////////////////////////////////
 
+    leaveparty: {
+      name:
+      description:
+      exitKeys:
+      exitTexts:
+      image:
+    },
+        
+    thefuzz: {
+        name:
+        description:
+        exitKeys:
+        exitTexts:
+        image:
+      },
+
+    arrested: {
+      name:
+      description:
+      exitKeys:
+      exitTexts:
+      image:
+    },
+
+    rc: {
+        name:
+        description:
+        exitKeys:
+        exitTexts:
+        image:
+      },
+
+    oakespass: {
+        name:
+        description:
+        exitKeys:
+        exitTexts:
+        image:
+      },
+
+    followpath: {
+        name:
+        description:
+        exitKeys:
+        exitTexts:
+        image:
+      },
+
+    dontfollowpath: {
+        name:
+        description:
+        exitKeys:
+        exitTexts:
+        image:
+      },
+
+    bananaslug: {
+        name:
+        description:
+        exitKeys:
+        exitTexts:
+        image:
+      },
+
+    oakes: {
+        name:
+        description:
+        exitKeys:
+        exitTexts:
+        image:
+      },
+
+    lastbus: {
+        name:
+        description:
+        exitKeys:
+        exitTexts:
+        image:
+      },
 
 }
