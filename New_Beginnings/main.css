@@ -1,78 +1,96 @@
-  
-  #content {
-    margin: 10px;
-    padding: 10px;
-    border: solid 1px #888;
-    background-color: rgba(0,0,0,0);
-    font-family: 'Papyrus';
-    font-size: 20px
-  }
-  
-  .minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #A3C9A8;
-    font-family: 'Papyrus';
-    font-size: 20px
-  }
+#content {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #888;
+  background-color: rgba(0,0,0,0);
+  font-family: 'Times New Roman';
+  font-size: 20px
+}
 
-  #invite {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #A3C9A8;
+  font-family: 'Times New Roman';
+  font-size: 20px
+}
+
+body {
+  background-image: url(img/mainbg.png);
+}
+
+
+h1,h2,h3 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+h1 {
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  font-size: 200%;
+}
+
+.room-image img {
+  width: 100%;
+  height: auto;
+}
+
+.adventure-section {
+  min-height: 300px;
+  color: maroon;
+  border: solid 1px #333333;
+  padding: 20px 20px 30px 20px;
+  margin: 10px;
+  background-color: #fffdf3;
+  width: 80%;
+  max-width: 100%;
+}
+
+.room-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.room-image img {
+  width: 80%;
+  border: solid 1px #333333;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 750px) {
+  .adventure-section {
     width: 100%;
-    transform: translatey(10px);
-    animation: float 6s ease-in-out infinite;
+    min-width: auto;
+    margin: 10px 0 10px 0;
   }
 
-  @keyframes float {
-    0% { transform: translate(0,  0px); }
-    50%  { transform: translate(0, 15px); }
-    100%   { transform: translate(0, -0px); }    
-}
-
-.buttonLetter {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: coral;
-  font-family: Helvetica, sans-serif;
-  font-size: 20px;
-  color: white;
-}
-
-#links{
-  display: flex;
-}
-#stayHome {
-  flex: 50%;
-  width: 50%;
-  text-align: center;
-  background-color: burlywood;
-}
-
-#goParty {
-  flex: 50%;
-  width: 50%;
-  text-align: center;
-  background-color: blueviolet;
-}
-
-  body {
-    background-image: url(images/mainbg.png);
+  .room-image img {
+      width: 100%;
   }
-  
-  
-  h1,h2,h3 {
-    font-family: 'Times New Roman', Times, serif;
-  }
-  
- 
-  h1 {
-    letter-spacing: 5px;
-    word-spacing: 5px;
-    font-size: 200%;
-  }
-  
- 
+}
+
+#js-output .title {
+  font-weight: bold;
+}
+
+#js-output li {
+  text-transform: none;
+  font-weight: bold;
+  cursor: pointer; 
+  cursor: hand;
+  list-style: none;
+  padding: 0px;
+}
+
+#js-output li:before {
+content: "\21E8 ";
+margin: 0 1em;
+}
+

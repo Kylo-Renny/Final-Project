@@ -15,7 +15,7 @@ rooms = {
         description: "script",
         exitKeys: ["openinvitation"],
         exitTexts:["Oh woah!"],
-        image: "closedletter.png"
+        image: "0closedletter.png"
     },
 
     openinvitation: {
@@ -23,7 +23,7 @@ rooms = {
         description: "",
         exitKeys: ["stayhome","goparty"],
         exitTexts: [""],
-        image: "openletter.png"
+        image: "0openletter.png"
     },
 
     stayhome: {
@@ -155,3 +155,67 @@ rooms = {
       },
     }
 /////////////////////////HARD STOP//////////////////////////////////////////
+
+//////////Break This Down- Wes' Code///////////////////////////////////////
+
+// global variables
+var currentRoom = 1;
+var lastRoom = 18;
+var outputHTMLid = "js-output";
+
+/*
+    Print something on the webpage in display area
+    Parameters: string to display
+ */
+function display(string) {
+    var element = $("#" + outputHTMLid);
+    element.append(string);
+}
+
+/*
+ * Clear display area
+ */
+function clearDisplayArea() {
+    $("#" + outputHTMLid).html("");
+}
+
+/*
+ * Display the current room
+ * Parameters: Takes a room object
+ */
+function displayCurrentRoom(roomObj) {
+    display("<div class='room-image'><img src='img/" + roomObj.image + "'></div>");
+    display("<p class='title'>" + roomObj.name + "</p>");
+    display("<p class='description'>" + roomObj.description + "</p>");
+}
+
+/*
+ * Display current exitKeys
+ * Parameters: Takes a room object
+ */
+function displayCurrentExits(roomObj) {
+    // loop over all the exitKeys for this room
+    display("<p>Choose your next move:</p><ul class='exits'>");
+    for(i = 0; i < roomObj.exitKeys.length; i++) {
+        /* We want the HTML to look like this:
+              <li><a onClick='javascript:newRoom("exitKey")'>Exit text</a></li>
+        */
+        exitHTML = "<li onClick='javascript:newRoom(\"" +
+                roomObj.exitKeys[i] + "\")'>" + roomObj.exitTexts[i] + "</li>";
+        display(exitHTML);
+    }
+    display("</ul>");
+}
+
+function newRoom(nextRoom) {
+    currentRoom = nextRoom;
+    currentRoomObj = rooms[currentRoom];
+    clearDisplayArea();
+    displayCurrentRoom(currentRoomObj);
+    displayCurrentExits(currentRoomObj);
+}
+
+// we need to wait until the webpage is loaded before we display room 1
+$(document).ready(function() {
+    newRoom('cu1');
+});
