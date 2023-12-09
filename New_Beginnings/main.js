@@ -12,7 +12,7 @@
 rooms = {
     closedinvitation: {
         name: "Your Welcome Letter",
-        description: "script",
+        description: "You've received your invitation to UCSC Welcome Week! ",
         exitKeys: ["openinvitation"],
         exitTexts:["Oh woah!"],
         image: "0closedletter.png"
@@ -20,7 +20,7 @@ rooms = {
 
     openinvitation: {
         name: "You're Invited",
-        description: "",
+        description: "Hey there slug, welcome to UCSC. Come on down to the East Remote lot field to get started",
         exitKeys: ["stayhome","goparty"],
         exitTexts: [""],
         image: "0openletter.png"
@@ -28,7 +28,7 @@ rooms = {
 
     stayhome: {
         name:"You Stayed Home",
-        description:"",
+        description:" 'damn college is lonely I guess I'll go to bed” *lights out*' ",
         exitKeys: ["closedinvitation"],
         exitTexts:[""],
         image: ""
