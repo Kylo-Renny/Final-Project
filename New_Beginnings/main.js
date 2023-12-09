@@ -21,210 +21,137 @@ rooms = {
     openinvitation: {
         name: "You're Invited",
         description: "",
-        exitKeys: [""],
+        exitKeys: ["stayhome","goparty"],
         exitTexts: [""],
         image: "openletter.png"
     },
 
     stayhome: {
-        name:
-        description:
-        exitKeys:
-        exitTexts:
-        image:
+        name:"You Stayed Home",
+        description:"",
+        exitKeys: ["closedinvitation"],
+        exitTexts:[""],
+        image: ""
     },
 
     goparty: {
-        name:
-        description:
-        exitKeys:
-        exitTexts:
-        image:
+        name:"The Welcome Party",
+        description:"",
+        exitKeys: ["checkmap"],
+        exitTexts: [""],
+        image:""
     },
 
     checkmap: {
-        name:
-        description:
-        exitKeys:
-        exitTexts:
-        image:
+        name: "Map of Campus",
+        description: "",
+        exitKeys: ["goafterparty", "noafterparty"],
+        exitTexts: [""],
+        image:""
     },
 
     noafterparty: {
-        name:
-        description:
-        exitKeys:
-        exitTexts:
-        image:
+        name: "You Returned Home",
+        description: "",
+        exitKeys: ["closedinvitation"],
+        exitTexts: [""],
+        image:""
     },
 
     goafterparty: {
-        name:
-        description:
-        exitKeys:
-        exitTexts:
-        image:
+        name:"You Decide to Go!",
+        description: "",
+        exitKeys: ["cands"],
+        exitTexts: [""],
+        image:""
     },
 
     cands: {
-        name:
-        description:
-        exitKeys:
-        exitTexts:
-        image:
+        name: "Cowell and Stevenson",
+        description: "",
+        exitKeys: ["merrill"],
+        exitTexts: [""],
+        image:""
     },
 
     merrill: {
-        name:
-        description:
-        exitKeys:
-        exitTexts:
-        image:
+        name: "Merrill",
+        description: "",
+        exitKeys: ["crown"],
+        exitTexts: [""],
+        image:""
     },
 
     crown: {
-        name:
-        description:
-        exitKeys:
-        exitTexts:
-        image:
+        name: "Crown",
+        description: "",
+        exitKeys: ["c9"],
+        exitTexts: [""],
+        image:""
     },
 
     c9: {
-        name:
-        description:
-        exitKeys:
-        exitTexts:
-        image:
+        name: "College 9",
+        description: "",
+        exitKeys: [""],
+        exitTexts: [""],
+        image:""
     },
 
     jrl: {
-        name:
-        description:
-        exitKeys:
-        exitTexts:
-        image:
+        name: "JRL",
+        description: "",
+        exitKeys: ["kresge"],
+        exitTexts: [""],
+        image:""
     },
 
     kresge: {
-        name:
-        description:
-        exitKeys:
-        exitTexts:
-        image:
+        name: "Kresge",
+        description: "",
+        exitKeys: ["porter"],
+        exitTexts: [""],
+        image:""
     },
 
     porter: {
-        name:
-        description:
-        exitKeys:
-        exitTexts:
-        image:
+        name: "Porter",
+        description: "",
+        exitKeys: ["portermeadows"],
+        exitTexts: [""],
+        image:""
     },
 
     portermeadows: {
-        name:
-        description:
-        exitKeys:
-        exitTexts:
-        image:
+        name: "Porter Meadows",
+        description: "",
+        exitKeys: ["takedrugs","nodrugs"],
+        exitTexts: [""],
+        image:""
     },
 
     takedrugs: {
-        name:
-        description:
-        exitKeys:
-        exitTexts:
-        image:
+        name: "You Take the Pills",
+        description: "",
+        exitKeys: ["bananaslug"],
+        exitTexts: [""],
+        image:""
     },
 
     nodrugs: {
-        name:
-        description:
-        exitKeys:
-        exitTexts:
-        image:
+        name: "it's Not Your Thing",
+        description: "",
+        exitKeys: ["leaveparty"],
+        exitTexts:[""],
+        image:""
     },
-/////////////////////////HARD STOP//////////////////////////////////////////
-
-    leaveparty: {
-      name:
-      description:
-      exitKeys:
-      exitTexts:
-      image:
-    },
-        
-    thefuzz: {
-        name:
-        description:
-        exitKeys:
-        exitTexts:
-        image:
-      },
-
-    arrested: {
-      name:
-      description:
-      exitKeys:
-      exitTexts:
-      image:
-    },
-
-    rc: {
-        name:
-        description:
-        exitKeys:
-        exitTexts:
-        image:
-      },
-
-    oakespass: {
-        name:
-        description:
-        exitKeys:
-        exitTexts:
-        image:
-      },
-
-    followpath: {
-        name:
-        description:
-        exitKeys:
-        exitTexts:
-        image:
-      },
-
-    dontfollowpath: {
-        name:
-        description:
-        exitKeys:
-        exitTexts:
-        image:
-      },
 
     bananaslug: {
-        name:
-        description:
-        exitKeys:
-        exitTexts:
-        image:
+        name:"Sammy?!",
+        description:"",
+        exitKeys:["leaveparty"],
+        exitTexts:[""],
+        image:""
       },
-
-    oakes: {
-        name:
-        description:
-        exitKeys:
-        exitTexts:
-        image:
-      },
-
-    lastbus: {
-        name:
-        description:
-        exitKeys:
-        exitTexts:
-        image:
-      },
-
-}
+    }
+/////////////////////////HARD STOP//////////////////////////////////////////
