@@ -217,5 +217,5 @@ function newRoom(nextRoom) {
 
 // we need to wait until the webpage is loaded before we display room 1
 $(document).ready(function() {
-    newRoom('cu1');
+    newRoom('closedinvitation');
 });
