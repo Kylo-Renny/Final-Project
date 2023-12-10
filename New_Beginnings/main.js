@@ -159,47 +159,39 @@ rooms = {
 //////////Break This Down- Wes' Code///////////////////////////////////////
 
 // global variables
+//This is the parameters of the rooms and where the output is placed in the html
 var currentRoom = 1;
 var lastRoom = 18;
 var outputHTMLid = "js-output";
 
-/*
-    Print something on the webpage in display area
-    Parameters: string to display
- */
+// Print something on the webpage in display area using the parameters given a string to display
+
 function display(string) {
     var element = $("#" + outputHTMLid);
     element.append(string);
 }
 
-/*
- * Clear display area
- */
+//cleared display area
+
 function clearDisplayArea() {
     $("#" + outputHTMLid).html("");
 }
 
-/*
- * Display the current room
- * Parameters: Takes a room object
- */
+//takes a room object and displays the current room
+
 function displayCurrentRoom(roomObj) {
     display("<div class='room-image'><img src='img/" + roomObj.image + "'></div>");
     display("<p class='title'>" + roomObj.name + "</p>");
     display("<p class='description'>" + roomObj.description + "</p>");
 }
 
-/*
- * Display current exitKeys
- * Parameters: Takes a room object
- */
+//takes a room object and displays the exit keys
+
 function displayCurrentExits(roomObj) {
     // loop over all the exitKeys for this room
     display("<p>Choose your next move:</p><ul class='exits'>");
     for(i = 0; i < roomObj.exitKeys.length; i++) {
-        /* We want the HTML to look like this:
-              <li><a onClick='javascript:newRoom("exitKey")'>Exit text</a></li>
-        */
+       //make sure to have the html match this when working- if this does not show up, you fucked up and need to debug
         exitHTML = "<li onClick='javascript:newRoom(\"" +
                 roomObj.exitKeys[i] + "\")'>" + roomObj.exitTexts[i] + "</li>";
         display(exitHTML);
@@ -207,6 +199,8 @@ function displayCurrentExits(roomObj) {
     display("</ul>");
 }
 
+//function for the new room that leads to the next room
+//this also clears the area and swaps them out with the description and exit keys
 function newRoom(nextRoom) {
     currentRoom = nextRoom;
     currentRoomObj = rooms[currentRoom];
@@ -215,7 +209,7 @@ function newRoom(nextRoom) {
     displayCurrentExits(currentRoomObj);
 }
 
-// we need to wait until the webpage is loaded before we display room 1
+//load webpage and display the first room -MAKE SURE IT MATCHES CORRECTLY
 $(document).ready(function() {
     newRoom('closedinvitation');
 });
