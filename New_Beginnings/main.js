@@ -14,7 +14,7 @@ rooms = {
         name: "Your Welcome Letter",
         description: "You've received your invitation to UCSC Welcome Week! ",
         exitKeys: ["openinvitation"],
-        exitTexts:["Oh woah!"],
+        exitTexts:["Oh woah, let's see what's in the letter!"],
         image: "0closedletter.png"
     },
 
@@ -36,7 +36,7 @@ rooms = {
 
     goparty: {
         name:"The Welcome Party",
-        description:"",
+        description:"Hey Slug! Let's get started. Head on down to the cornucopia at the east field to begin.",
         exitKeys: ["checkmap"],
         exitTexts: [""],
         image:""
