@@ -130,7 +130,7 @@ rooms = {
         description: "",
         exitKeys: ["takedrugs","nodrugs"],
         exitTexts: [""],
-        image:"3.0porterparty.png"
+        image:"3.0porterparty.gif"
     },
 
     takedrugs: {
@@ -138,7 +138,7 @@ rooms = {
         description: "Welcome to the Meadow, someone offers you drugs. What do you do?.",
         exitKeys: ["bananaslug"],
         exitTexts: [""],
-        image:"3.1takedrugs.png"
+        image:"3.1takedrugs.gif"
     },
 
     nodrugs: {
@@ -146,7 +146,7 @@ rooms = {
         description: "hmm, I don’t think so.",
         exitKeys: ["leaveparty"],
         exitTexts:[""],
-        image:"1.0home.png"
+        image:"1.0home.gif"
     },
 
     bananaslug: {
@@ -154,7 +154,7 @@ rooms = {
         description:"",
         exitKeys:["leaveparty"],
         exitTexts:[""],
-        image:"6.1bananaslug.png"
+        image:"6.1bananaslug.gif"
       },
     }
 /////////////////////////HARD STOP//////////////////////////////////////////
