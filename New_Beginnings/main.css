@@ -2,6 +2,7 @@
   margin: 10px;
   padding: 10px;
   border: solid 5px goldenrod;
+  border-radius: 25px;
   outline: solid 2px rgb(214, 167, 48);
   outline-offset: -10px;
   background-color: darkblue;
@@ -14,6 +15,7 @@
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px rgb(251, 255, 1);
+  border-radius: 25px;
   background-color: rgb(0, 72, 255);
   font-family: 'Helvetica';
   font-size: 20px
@@ -48,6 +50,7 @@ h1 {
   min-height: 300px;
   color: gold;
   border: solid 2px goldenrod;
+  border-radius: 25px;
   padding: 20px 20px 30px 20px;
   margin: 10px;
   background-color: darkslateblue;
@@ -72,6 +75,7 @@ li:hover {
 .room-image img {
   width: 80%;
   border: solid 2px goldenrod;
+  border-radius: 25px;
 }
 
 .container {
