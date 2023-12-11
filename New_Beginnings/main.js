@@ -241,6 +241,7 @@ function newRoom(nextRoom) {
 /////////////////////////////Drug trip//////////////////////////////////////////////
 //see if you can add a button into the array to change colors during the drug trip
 //ask ilia
+//$(takedrugs).html(roomObject.button) 
 //load webpage and display the first room -MAKE SURE IT MATCHES CORRECTLY
 $(document).ready(function() {
     newRoom('closedinvitation');
