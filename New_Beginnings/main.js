@@ -23,7 +23,7 @@ rooms = {
         description: "Hey there slug, welcome to UCSC. Come on down to the East Remote lot field to get started",
         exitKeys: ["stayhome","goparty"],
         exitTexts: ["I'd rather stay home","Sure! That sounds fun!"],
-        image: "0openletter.png"
+        image: "0openletter.gif"
     },
 
     stayhome: {
