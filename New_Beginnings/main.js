@@ -31,7 +31,7 @@ rooms = {
         description:" 'damn college is lonely I guess I'll go to bed” *lights out*' ",
         exitKeys: ["closedinvitation"],
         exitTexts:[""],
-        image: "1.0home.png"
+        image: "1.0home.gif"
     },
 
     goparty: {
@@ -56,7 +56,7 @@ rooms = {
         description: "",
         exitKeys: ["closedinvitation"],
         exitTexts: [""],
-        image:"1.0home.png"
+        image:"1.0home.gif"
 
     },
 
