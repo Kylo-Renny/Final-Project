@@ -39,7 +39,7 @@ rooms = {
         description:"Hey Slug! Let's get started. Head on down to the cornucopia at the east field to begin.",
         exitKeys: ["checkmap"],
         exitTexts: [""],
-        image:"0closedletter.png"
+        image:"1.1party.png"
     },
 
     checkmap: {
@@ -152,7 +152,7 @@ rooms = {
         description:"",
         exitKeys:["leaveparty"],
         exitTexts:[""],
-        image:"6.1bananaslugbg.png"
+        image:"6.1bananaslug.png"
       },
     }
 /////////////////////////HARD STOP//////////////////////////////////////////
