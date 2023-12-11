@@ -30,7 +30,7 @@ rooms = {
         name:"You Stayed Home",
         description:" 'damn college is lonely I guess I'll go to bed” *lights out*' ",
         exitKeys: ["closedinvitation"],
-        exitTexts:[""],
+        exitTexts:["try again"],
         image: "1.0home.gif"
     },
 
