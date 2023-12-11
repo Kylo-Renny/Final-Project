@@ -47,8 +47,8 @@ rooms = {
         description: "",
         exitKeys: ["goafterparty", "noafterparty"],
         exitTexts: [""],
-        // JAZMINE TO UPLOAD MAP
-        image:""
+        // IDK HOW TO ADD AN ALT TEXT TO CREDIT UCSC FOR THE MAP... -jazmine
+        image:"map.jpg"
     },
 
     noafterparty: {
@@ -57,6 +57,7 @@ rooms = {
         exitKeys: ["closedinvitation"],
         exitTexts: [""],
         image:"1.0home.png"
+
     },
 
     goafterparty: {
