@@ -80,7 +80,7 @@ rooms = {
         description: "",
         exitKeys: ["crown"],
         exitTexts: [""],
-        image:""
+        image:"2.4merrill.png"
     },
 
     crown: {
@@ -88,7 +88,7 @@ rooms = {
         description: "",
         exitKeys: ["c9"],
         exitTexts: [""],
-        image:""
+        image:"2.5crown.png"
     },
 
     c9: {
@@ -104,7 +104,7 @@ rooms = {
         description: "",
         exitKeys: ["kresge"],
         exitTexts: [""],
-        image:""
+        image:"2.6c9.png"
     },
 
     kresge: {
@@ -112,7 +112,7 @@ rooms = {
         description: "",
         exitKeys: ["porter"],
         exitTexts: [""],
-        image:""
+        image:"2.8kresge.png"
     },
 
     porter: {
@@ -120,7 +120,7 @@ rooms = {
         description: "",
         exitKeys: ["portermeadows"],
         exitTexts: [""],
-        image:""
+        image:"2.9porter.png"
     },
 
     portermeadows: {
@@ -128,7 +128,7 @@ rooms = {
         description: "",
         exitKeys: ["takedrugs","nodrugs"],
         exitTexts: [""],
-        image:""
+        image:"3.0porterparty.png"
     },
 
     takedrugs: {
@@ -136,7 +136,7 @@ rooms = {
         description: "",
         exitKeys: ["bananaslug"],
         exitTexts: [""],
-        image:""
+        image:"3.1takedrugs.png"
     },
 
     nodrugs: {
@@ -144,7 +144,7 @@ rooms = {
         description: "",
         exitKeys: ["leaveparty"],
         exitTexts:[""],
-        image:""
+        image:"1.0home.png"
     },
 
     bananaslug: {
@@ -152,7 +152,7 @@ rooms = {
         description:"",
         exitKeys:["leaveparty"],
         exitTexts:[""],
-        image:""
+        image:"6.1bananaslugbg.png"
       },
     }
 /////////////////////////HARD STOP//////////////////////////////////////////
