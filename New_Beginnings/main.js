@@ -73,7 +73,7 @@ rooms = {
         description: "",
         exitKeys: ["merrill"],
         exitTexts: [""],
-        image:""
+        image:"2.3cowsteve.png"
     },
 
     merrill: {
