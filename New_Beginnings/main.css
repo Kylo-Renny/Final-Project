@@ -32,11 +32,31 @@ h1,h2,h3 {
 
 
 h1 {
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   word-spacing: 5px;
-  font-size: 200%;
+  font-size: 220%;
+  text-align: center;
+  color: goldenrod;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
 
 
 
@@ -52,7 +72,8 @@ h1 {
   border: solid 2px goldenrod;
   border-radius: 25px;
   padding: 20px 20px 30px 20px;
-  margin: 10px;
+  margin-right: auto;
+  margin-left: auto;
   background-color: darkslateblue;
   width: 80%;
   max-width: 100%;
