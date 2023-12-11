@@ -44,9 +44,9 @@ rooms = {
 
     checkmap: {
         name: "Map of Campus",
-        description: "Nice work. You've been invited to a party at Oakes college, it's too late to catch the loop bus, so you'll have to walk.",
+        description: "Nice work. You've been invited to a party at Porter Meadows, it's too late to catch the loop bus, so you'll have to walk.",
         exitKeys: ["goafterparty", "noafterparty"],
-        exitTexts: ["Woah! This campus is massive! Guess I can skip leg day from now on."],
+        exitTexts: ["Whoa! This campus is massive! Guess I can skip leg day from now on.", "Nah, you've had enough social interaction and you decide to Walk home."],
         // IDK HOW TO ADD AN ALT TEXT TO CREDIT UCSC FOR THE MAP... -jazmine
         // We can add that to sources on our final doc, nt here -scarlett
         image:"map.gif"
@@ -137,7 +137,7 @@ rooms = {
         name: "You Take the Drugs",
         description: "What's the worst thing that could happen! This is what college is about right?",
         exitKeys: ["bananaslug"],
-        exitTexts: ["Woahhhh- You start to feel funnnnnnnnnnnyyyyyyyyyyy"],
+        exitTexts: ["Whoaaaa- You start to feel funnnnnnnnnnnyyyyyyyyyyy"],
         image:"3.1takedrugs.gif"
     },
 
@@ -146,7 +146,7 @@ rooms = {
         description: "Hmmm, I think I'll pass.",
         exitKeys: ["leaveparty"],
         exitTexts:["You spend a few more hours dancing into the early morning with your new group of friends! Some of them are even in the same college as you! You collect contact information and safely Uber home because you are a responsible young adult."],
-        image:"1.0home.gif"
+        image:"3.0keeppartying.gif"
     },
 
     bananaslug: {
@@ -162,7 +162,7 @@ rooms = {
         description:"As you lay in bed, content in your covers and ready for sleep, you glance over at your alarm clock. It reads 4:26 A.M. Your heart immediately sinks as you remember that your first 8am class starts today. Welcome to the University of Santa Cruz, Banana Slug!",
         exitKeys:["closedinvitation"],
         exitTexts:["True Ending-Restart"],
-        image:"6.1bananaslug.gif"
+        image:"7.0lastbushome.gif"
       },
     }
 /////////////////////////HARD STOP//////////////////////////////////////////
