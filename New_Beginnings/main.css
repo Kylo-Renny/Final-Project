@@ -55,6 +55,10 @@ h1 {
   max-width: 100%;
 }
 
+li {
+  transition: 0.5s
+}
+
 li:hover {
   color: lightgreen
 }
