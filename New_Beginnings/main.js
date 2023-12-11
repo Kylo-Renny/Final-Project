@@ -15,7 +15,7 @@ rooms = {
         description: "You've received your invitation to UCSC Welcome Week! ",
         exitKeys: ["openinvitation"],
         exitTexts:["Oh woah, let's see what's in the letter!"],
-        image: "0closedletter.png"
+        image: "0closedletter.gif"
     },
 
     openinvitation: {
