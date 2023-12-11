@@ -106,7 +106,7 @@ rooms = {
         description: "Congratulations. Welcome to JRL, home to the University Center",
         exitKeys: ["kresge"],
         exitTexts: ["You feel a strong sense of community and take a moment to bask in it before moving on. The pizza pockets burn your mouth a little."],
-        image:"2.6c9.gif"
+        image:"2.7jrl.gif"
     },
 
     kresge: {
