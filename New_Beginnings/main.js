@@ -39,7 +39,7 @@ rooms = {
         description:"Hey Slug! Welcome to UCSC to get started, head on down to the cornucopia at the east field to find your map.",
         exitKeys: ["checkmap"],
         exitTexts: [""],
-        image:"1.1party.png"
+        image:"1.1party.gif"
     },
 
     checkmap: {
@@ -66,7 +66,7 @@ rooms = {
         description: "Head up to Cowell and Stevenson",
         exitKeys: ["cands"],
         exitTexts: [""],
-        image:"1.1partybg.png"
+        image:"1.1partybg.gif"
     },
 
     cands: {
@@ -74,7 +74,7 @@ rooms = {
         description: "Welcome to Cowell and Steveson college. Cowell Stevenson is home to the Eloise Pickard Smith Gallery as well as home to our Humanities department",
         exitKeys: ["merrill"],
         exitTexts: [""],
-        image:"2.3cowsteve.png"
+        image:"2.3cowsteve.gif"
     },
 
     merrill: {
@@ -82,7 +82,7 @@ rooms = {
         description: "Hey, glad you got up the hill, Merrill is known for cardiac hill.",
         exitKeys: ["crown"],
         exitTexts: [""],
-        image:"2.4merrill.png"
+        image:"2.4merrill.gif"
     },
 
     crown: {
@@ -90,7 +90,7 @@ rooms = {
         description: "Oh no!!! There's a fire, you better make it up to the UCSC fire station at Crown college!",
         exitKeys: ["c9"],
         exitTexts: [""],
-        image:"2.5crown.png"
+        image:"2.5crown.gif"
     },
 
     c9: {
@@ -98,7 +98,7 @@ rooms = {
         description: "phew. Good job making it out of there, why don't you head over to the famous dining hall down at college nine",
         exitKeys: [""],
         exitTexts: [""],
-        image:"2.6c9.png"
+        image:"2.6c9.gif"
     },
 
     jrl: {
@@ -106,7 +106,7 @@ rooms = {
         description: "Congratulations. Welcome to JRL, home to the University Center",
         exitKeys: ["kresge"],
         exitTexts: [""],
-        image:"2.6c9.png"
+        image:"2.6c9.gif"
     },
 
     kresge: {
@@ -114,7 +114,7 @@ rooms = {
         description: "Welcome to Kresge. Here you can make your way through the forrest to the campus RV park.",
         exitKeys: ["porter"],
         exitTexts: [""],
-        image:"2.8kresge.png"
+        image:"2.8kresge.gif"
     },
 
     porter: {
@@ -122,7 +122,7 @@ rooms = {
         description: "You made it to Porter! The arts division. Now you can really have fun, head over to Porter Meadow.",
         exitKeys: ["portermeadows"],
         exitTexts: [""],
-        image:"2.9porter.png"
+        image:"2.9porter.gif"
     },
 
     portermeadows: {
