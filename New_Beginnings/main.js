@@ -146,7 +146,7 @@ rooms = {
         description: "Hmmm, I think I'll pass.",
         exitKeys: ["leaveparty"],
         exitTexts:["You spend a few more hours dancing into the early morning with your new group of friends! Some of them are even in the same college as you! You collect contact information and safely Uber home because you are a responsible young adult."],
-        image:"1.0home.gif"
+        image:"3.0keeppartying.gif"
     },
 
     bananaslug: {
