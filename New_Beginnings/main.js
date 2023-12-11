@@ -36,7 +36,7 @@ rooms = {
 
     goparty: {
         name:"The Welcome Party",
-        description:"Hey Slug! Let's get started. Head on down to the cornucopia at the east field to begin.",
+        description:"Hey Slug! Let's get started, there's a party going on at Oakes College, but you'll need some help finding it. Head on down to the cornucopia at the east field to find your map.",
         exitKeys: ["checkmap"],
         exitTexts: [""],
         image:"1.1party.png"
@@ -44,10 +44,11 @@ rooms = {
 
     checkmap: {
         name: "Map of Campus",
-        description: "",
+        description: "Nice work. ",
         exitKeys: ["goafterparty", "noafterparty"],
         exitTexts: [""],
         // IDK HOW TO ADD AN ALT TEXT TO CREDIT UCSC FOR THE MAP... -jazmine
+        // We can add that to sources on our final doc, nt here -scarlett
         image:"map.jpg"
     },
 
