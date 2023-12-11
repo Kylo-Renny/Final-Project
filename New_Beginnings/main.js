@@ -200,7 +200,7 @@ function displayCurrentRoom(roomObj) {
 
 function displayCurrentExits(roomObj) {
     // loop over all the exitKeys for this room - It also displays the text box for the exit keys
-    display("<p>What do you do?:</p><ul class='exits'>");
+    display("<p>You:</p><ul class='exits'>");
     for(i = 0; i < roomObj.exitKeys.length; i++) {
        //make sure to have the html match this when working- if this does not show up, you fucked up and need to debug
         exitHTML = "<li onClick='javascript:newRoom(\"" +
