@@ -4,7 +4,7 @@
   border: solid 5px goldenrod;
   outline: solid 2px rgb(214, 167, 48);
   outline-offset: -10px;
-  background-color: #755a49;
+  background-color: darkblue;
   font-family: 'Times New Roman';
   font-size: 20px;
 }
@@ -14,7 +14,7 @@
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px goldenrod;
-  background-color: #A3C9A8;
+  background-color: darkslateblue;
   font-family: 'Times New Roman';
   font-size: 20px
 }
@@ -46,11 +46,11 @@ h1 {
 
 .adventure-section {
   min-height: 300px;
-  color: seashell;
+  color: gold;
   border: solid 2px goldenrod;
   padding: 20px 20px 30px 20px;
   margin: 10px;
-  background-color: #917767;
+  background-color: darkslateblue;
   width: 80%;
   max-width: 100%;
 }
@@ -60,7 +60,7 @@ li {
 }
 
 li:hover {
-  color: lightgreen
+  color: white
 }
 
 .room-image {
