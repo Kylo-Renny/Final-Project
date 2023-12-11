@@ -1,8 +1,10 @@
 #content {
   margin: 10px;
   padding: 10px;
-  border: solid 1px #888;
-  background-color: rgba(0,0,0,0);
+  border: solid 5px goldenrod;
+  outline: solid 2px rgb(214, 167, 48);
+  outline-offset: -10px;
+  background-color: #755a49;
   font-family: 'Times New Roman';
   font-size: 20px
 }
@@ -10,7 +12,7 @@
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #888;
+  border: solid 1px goldenrod;
   background-color: #A3C9A8;
   font-family: 'Times New Roman';
   font-size: 20px
@@ -32,6 +34,7 @@ h1 {
   font-size: 200%;
 }
 
+/*Wes's CSS Modified */
 .room-image img {
   width: 100%;
   height: auto;
@@ -39,11 +42,11 @@ h1 {
 
 .adventure-section {
   min-height: 300px;
-  color: maroon;
-  border: solid 1px #333333;
+  color: seashell;
+  border: solid 2px goldenrod;
   padding: 20px 20px 30px 20px;
   margin: 10px;
-  background-color: #fffdf3;
+  background-color: #917767;
   width: 80%;
   max-width: 100%;
 }
@@ -56,7 +59,7 @@ h1 {
 
 .room-image img {
   width: 80%;
-  border: solid 1px #333333;
+  border: solid 2px goldenrod;
 }
 
 .container {
