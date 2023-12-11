@@ -6,8 +6,9 @@
   outline-offset: -10px;
   background-color: #755a49;
   font-family: 'Times New Roman';
-  font-size: 20px
+  font-size: 20px;
 }
+
 
 .minor-section {
   padding: 10px;
@@ -34,7 +35,10 @@ h1 {
   font-size: 200%;
 }
 
-/*Wes's CSS Modified */
+
+
+
+/*Wes's CSS, little modification*/
 .room-image img {
   width: 100%;
   height: auto;
@@ -49,6 +53,10 @@ h1 {
   background-color: #917767;
   width: 80%;
   max-width: 100%;
+}
+
+li:hover {
+  color: lightgreen
 }
 
 .room-image {
