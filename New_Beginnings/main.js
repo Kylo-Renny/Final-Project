@@ -220,7 +220,8 @@ function newRoom(nextRoom) {
     displayCurrentExits(currentRoomObj);
 }
 /////////////////////////////Drug trip//////////////////////////////////////////////
-
+//see if you can add a button into the array to change colors during the drug trip
+//ask ilia
 //load webpage and display the first room -MAKE SURE IT MATCHES CORRECTLY
 $(document).ready(function() {
     newRoom('closedinvitation');
