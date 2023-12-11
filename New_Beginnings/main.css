@@ -73,6 +73,7 @@ h1 {
 
   .room-image img {
       width: 100%;
+      background-image: url(0mainbg.png), url(0closedletter.png);
   }
 }
 

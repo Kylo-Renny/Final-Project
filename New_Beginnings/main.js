@@ -97,7 +97,7 @@ rooms = {
         description: "",
         exitKeys: [""],
         exitTexts: [""],
-        image:""
+        image:"2.6c9.png"
     },
 
     jrl: {
