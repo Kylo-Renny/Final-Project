@@ -36,6 +36,7 @@ h1 {
   letter-spacing: 3px;
   word-spacing: 5px;
   font-size: 220%;
+  text-decoration-line: underline;
   text-align: center;
   color: goldenrod;
 }
