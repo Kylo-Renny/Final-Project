@@ -1,6 +1,6 @@
 
 	// main.js - final project
-    // Author:
+    // Author: Group 15
     // Date:12/11/23
     // New goals 
     //Create an Array of data with callbacks that activate when buttons are pushed
