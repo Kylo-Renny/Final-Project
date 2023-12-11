@@ -49,7 +49,7 @@ rooms = {
         exitTexts: [""],
         // IDK HOW TO ADD AN ALT TEXT TO CREDIT UCSC FOR THE MAP... -jazmine
         // We can add that to sources on our final doc, nt here -scarlett
-        image:"map.jpg"
+        image:"map.gif"
     },
 
     noafterparty: {
