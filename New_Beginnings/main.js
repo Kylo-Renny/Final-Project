@@ -44,7 +44,7 @@ rooms = {
 
     checkmap: {
         name: "Map of Campus",
-        description: "Nice work. You've been invited to a party at Oakes college, it's too late to catch the loop bus, so you'll have to walk.",
+        description: "Nice work. You've been invited to a party at Porter Meadows, it's too late to catch the loop bus, so you'll have to walk.",
         exitKeys: ["goafterparty", "noafterparty"],
         exitTexts: ["Whoa! This campus is massive! Guess I can skip leg day from now on.", "Walk home."],
         // IDK HOW TO ADD AN ALT TEXT TO CREDIT UCSC FOR THE MAP... -jazmine
