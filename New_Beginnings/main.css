@@ -33,6 +33,7 @@ h1 {
   letter-spacing: 5px;
   word-spacing: 5px;
   font-size: 200%;
+  justify-content: center
 }
 
 
@@ -70,8 +71,8 @@ li:hover {
 }
 
 .room-image img {
-  width: 80%;
-  border: solid 2px goldenrod;
+  width: 70%;
+  border: solid 2px rgb(255, 255, 255);
 }
 
 .container {
