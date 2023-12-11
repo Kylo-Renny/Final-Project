@@ -71,7 +71,7 @@ rooms = {
 
     cands: {
         name: "Cowell and Stevenson",
-        description: "",
+        description: "Welcome to Cowell and Steveson college. Cowell Stevenson is home to the Eloise Pickard Smith Gallery as well as home to our Humanities department",
         exitKeys: ["merrill"],
         exitTexts: [""],
         image:"2.3cowsteve.png"
@@ -79,7 +79,7 @@ rooms = {
 
     merrill: {
         name: "Merrill",
-        description: "",
+        description: "Hey, glad you got up the hill, Merrill is known for cardiac hill.",
         exitKeys: ["crown"],
         exitTexts: [""],
         image:"2.4merrill.png"
@@ -87,7 +87,7 @@ rooms = {
 
     crown: {
         name: "Crown",
-        description: "",
+        description: "Oh no!!! There's a fire, you better make it up to the UCSC fire station at Crown college!",
         exitKeys: ["c9"],
         exitTexts: [""],
         image:"2.5crown.png"
@@ -95,7 +95,7 @@ rooms = {
 
     c9: {
         name: "College 9",
-        description: "",
+        description: "phew. Good job making it out of there, why don't you head over to the famous dining hall down at college nine",
         exitKeys: [""],
         exitTexts: [""],
         image:"2.6c9.png"
@@ -103,7 +103,7 @@ rooms = {
 
     jrl: {
         name: "JRL",
-        description: "",
+        description: "Congratulations. Welcome to JRL, home to the University Center",
         exitKeys: ["kresge"],
         exitTexts: [""],
         image:"2.6c9.png"
@@ -111,7 +111,7 @@ rooms = {
 
     kresge: {
         name: "Kresge",
-        description: "",
+        description: "Welcome to Kresge. Here you can make your way through the forrest to the campus RV park.",
         exitKeys: ["porter"],
         exitTexts: [""],
         image:"2.8kresge.png"
@@ -119,7 +119,7 @@ rooms = {
 
     porter: {
         name: "Porter",
-        description: "",
+        description: "You made it to Porter! The arts division. Now you can really have fun, head over to Porter Meadow.",
         exitKeys: ["portermeadows"],
         exitTexts: [""],
         image:"2.9porter.png"
@@ -135,7 +135,7 @@ rooms = {
 
     takedrugs: {
         name: "You Take the Pills",
-        description: "",
+        description: "Welcome to the Meadow, someone offers you drugs. What do you do?.",
         exitKeys: ["bananaslug"],
         exitTexts: [""],
         image:"3.1takedrugs.png"
@@ -143,7 +143,7 @@ rooms = {
 
     nodrugs: {
         name: "it's Not Your Thing",
-        description: "",
+        description: "hmm, I don’t think so.",
         exitKeys: ["leaveparty"],
         exitTexts:[""],
         image:"1.0home.png"
