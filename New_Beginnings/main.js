@@ -219,6 +219,7 @@ function newRoom(nextRoom) {
     displayCurrentRoom(currentRoomObj);
     displayCurrentExits(currentRoomObj);
 }
+/////////////////////////////Drug trip//////////////////////////////////////////////
 
 //load webpage and display the first room -MAKE SURE IT MATCHES CORRECTLY
 $(document).ready(function() {
