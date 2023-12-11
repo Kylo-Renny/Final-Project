@@ -183,4 +183,37 @@ content: "\21E8 ";
 margin: 0 1em;
 }
 
-
+/*.drugtrip {
+    -webkit-animation-name: animation;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: animation;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+  }
+  
+  @-webkit-keyframes animation {
+      0.00% { background-color: red;    }
+     14.29% { background-color: orange; }
+     28.57% { background-color: yellow; }
+     42.86% { background-color: green;  }
+     57.14% { background-color: blue;   }
+     71.43% { background-color: indigo; }
+     85.71% { background-color: violet; }
+    100.00% { background-color: red; }
+  }
+  
+  @keyframes animation {
+      0.00% { background-color: red;    }
+     16.67% { background-color: orange; }
+     33.33% { background-color: yellow; }
+     50.00% { background-color: green;  }
+     66.67% { background-color: blue;   }
+     83.33% { background-color: indigo; }
+    100.00% { background-color: violet; }
+  }
+/*
