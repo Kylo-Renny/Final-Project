@@ -162,7 +162,7 @@ rooms = {
         description:"As you lay in bed, content in your covers and ready for sleep, you glance over at your alarm clock. It reads 4:26 A.M. Your heart immediately sinks as you remember that your first 8am class starts today. Welcome to the University of Santa Cruz, Banana Slug!",
         exitKeys:["closedinvitation"],
         exitTexts:["True Ending-Restart"],
-        image:"6.1bananaslug.gif"
+        image:"7.0lastbushome.gif"
       },
     }
 /////////////////////////HARD STOP//////////////////////////////////////////
