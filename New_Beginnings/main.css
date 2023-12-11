@@ -4,7 +4,7 @@
   border: solid 5px goldenrod;
   outline: solid 2px rgb(214, 167, 48);
   outline-offset: -10px;
-  background-color: darkblue;
+  background-color: rgb(0, 26, 255);
   font-family: 'Helvetica';
   font-size: 20px;
 }
@@ -47,7 +47,7 @@ h1 {
 .adventure-section {
   min-height: 300px;
   color: gold;
-  border: solid 2px goldenrod;
+  border: solid 2px rgb(255, 247, 0);
   padding: 20px 20px 30px 20px;
   margin: 10px;
   background-color: darkslateblue;
