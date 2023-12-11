@@ -33,6 +33,7 @@ h1,h2,h3 {
 
 h1 {
   letter-spacing: 5px;
+  color:gold;
   word-spacing: 5px;
   font-size: 200%;
 }
