@@ -106,7 +106,7 @@ rooms = {
         description: "Congratulations. Welcome to JRL, home to the University Center",
         exitKeys: ["kresge"],
         exitTexts: ["You feel a strong sense of community and take a moment to bask in it before moving on. The pizza pockets burn your mouth a little."],
-        image:"2.6c9.gif"
+        image:"2.7jrl.gif"
     },
 
     kresge: {
@@ -145,15 +145,23 @@ rooms = {
         name: "it's Not Your Thing",
         description: "Hmmm, I think I'll pass.",
         exitKeys: ["leaveparty"],
-        exitTexts:["You spend a few more hours dancing into the early morning with your new group of friends! Some of them are even in the same college as you! You collect contact information and safely Uber home because you are a responsible young adult. As you lay in bed, content in your covers and ready for sleep, you glance over at your alarm clock. It reads 4:26 A.M. Your heart immediately sinks as you remember that your first 8am class starts today. Welcome to the University of Santa Cruz, Banana Slug!"],
+        exitTexts:["You spend a few more hours dancing into the early morning with your new group of friends! Some of them are even in the same college as you! You collect contact information and safely Uber home because you are a responsible young adult."],
         image:"1.0home.gif"
     },
 
     bananaslug: {
         name:"Sammy?!",
-        description:"",
-        exitKeys:["leaveparty"],
-        exitTexts:[""],
+        description:"Your vision begins to fog and you blink a few times before looking around. Everything seems larger around you. You feel like te world is in slow motion...What the heck! You are small and in slow motion! With a growing frustration you realize you've been turned into a banana slug! The mascot of the university! This wasn't what you thought it meant to elevate the Santa Cruz Slug experience! Oh well.. " ,
+        exitKeys:["closedinvitation"],
+        exitTexts:["Slug Ending-Restart"],
+        image:"6.1bananaslug.gif"
+      },
+
+      leaveparty: {
+        name:"You Leave the Party",
+        description:"As you lay in bed, content in your covers and ready for sleep, you glance over at your alarm clock. It reads 4:26 A.M. Your heart immediately sinks as you remember that your first 8am class starts today. Welcome to the University of Santa Cruz, Banana Slug!",
+        exitKeys:["closedinvitation"],
+        exitTexts:["True Ending-Restart"],
         image:"6.1bananaslug.gif"
       },
     }
