@@ -31,7 +31,7 @@ rooms = {
         description:" 'damn college is lonely I guess I'll go to bed” *lights out*' ",
         exitKeys: ["closedinvitation"],
         exitTexts:[""],
-        image: ""
+        image: "1.0home.png"
     },
 
     goparty: {
@@ -39,7 +39,7 @@ rooms = {
         description:"Hey Slug! Let's get started. Head on down to the cornucopia at the east field to begin.",
         exitKeys: ["checkmap"],
         exitTexts: [""],
-        image:""
+        image:"0closedletter.png"
     },
 
     checkmap: {
@@ -47,6 +47,7 @@ rooms = {
         description: "",
         exitKeys: ["goafterparty", "noafterparty"],
         exitTexts: [""],
+        // JAZMINE TO UPLOAD MAP
         image:""
     },
 
@@ -55,7 +56,7 @@ rooms = {
         description: "",
         exitKeys: ["closedinvitation"],
         exitTexts: [""],
-        image:""
+        image:"1.0home.png"
     },
 
     goafterparty: {
@@ -63,7 +64,7 @@ rooms = {
         description: "",
         exitKeys: ["cands"],
         exitTexts: [""],
-        image:""
+        image:"1.1partybg.png"
     },
 
     cands: {
