@@ -214,7 +214,7 @@ function displayCurrentRoom(roomObj) {
     display("<p class='title'>" + roomObj.name + "</p>");
     display("<p class='description'>" + roomObj.description + "</p>");
 }
-    //display("<button>" + roomObj.button + "</button>");
+    //display("<button>" + roomObj.button + "</button");
 
 //takes a room object and displays the exit keys
 
